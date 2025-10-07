@@ -1,0 +1,17 @@
+# --- Core GUI ---
+tk                # Tkinter (en algunas distros se instala como python3-tk, aquí lo dejamos explícito)
+
+# --- Matemáticas y cálculo ---
+numpy             # Operaciones matemáticas avanzadas
+sympy             # Cálculo simbólico (útil para la calculadora científica)
+
+# --- Gráficas ---
+matplotlib        # Para el mini-plotter de funciones
+
+# --- Seguridad / utilidades ---
+secrets           # Generador de contraseñas seguras (parte de la stdlib, pero lo listamos por claridad)
+
+# --- Documentación y pruebas ---
+pytest            # Framework de testing
+pytest-cov        # Cobertura de tests
+sphinx            # Generación de documentación (opcional, si quieres docs más pro)
