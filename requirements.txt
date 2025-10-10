@@ -1,0 +1,15 @@
+# --- Dependencias principales ---
+numpy==2.1.2           # Operaciones numéricas y algebra lineal
+sympy==1.13.3          # Matemática simbólica (derivadas, integrales, ecuaciones)
+matplotlib==3.9.2      # Graficación de funciones y visualización
+pandas==2.2.3          # Manejo de datos tabulares (útil para conversores)
+
+# --- Utilidades ---
+requests==2.32.3       # Consultas HTTP (ej. conversor de monedas con API)
+python-dotenv==1.0.1   # Manejo de variables de entorno (.env)
+
+# --- Seguridad ---
+cryptography==43.0.1   # Generación y manejo seguro de contraseñas
+
+# --- Desarrollo y pruebas ---
+pytest==8.3.3          # Framework de testing
