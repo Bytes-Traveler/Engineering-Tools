@@ -39,3 +39,7 @@ htmlcov/
 
 # --- Configuración local ---
 .env
+
+# --- Pipenv ---
+Pipfile
+Pipfile.lock
