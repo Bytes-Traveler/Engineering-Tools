@@ -12,7 +12,7 @@ class CalculatorUI(tk.Frame):
         self.text_input = tk.StringVar()
         
         # Pantalla de entrada
-        entry = tk.Entry(self, font=("Arial", 18), textvariable=self.text_input, justify="right")
+        entry = tk.Entry(self, font=("Arial", 18), textvariable=self.text_input, justify="left")
         entry.grid(row=0, column=0, columnspan=4, sticky="nsew", padx=5, pady=5)
         
         # Botones
